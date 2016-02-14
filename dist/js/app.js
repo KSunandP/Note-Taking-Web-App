@@ -1,0 +1,2 @@
+"use strict";var app="test";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJhcHAiXSwibWFwcGluZ3MiOiJBQUFBLFlBQUEsSUFBQUEsS0FBQSIsImZpbGUiOiJhcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJsZXQgYXBwID0gXCJ0ZXN0XCI7Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9
