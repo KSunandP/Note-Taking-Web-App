@@ -1,0 +1,21 @@
+{
+  "name": "note-taker",
+  "description": "A note taking app",
+  "main": "server.js",
+  "authors": [
+    "Kyle Patel"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/KSunandP/Note-Taking-Web-App",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
