@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["app","console","log"],"mappings":"AAAA,cAAA,WAGA,GAAAA,GAAA,MACAC,SAAAC,IAAAF","file":"app.js","sourcesContent":[";(function() {\n\t\"use strict\"\n\n\tlet app = \"test\";\n\tconsole.log(app);\n\n})();"],"sourceRoot":"/source/"}

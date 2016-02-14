@@ -17,7 +17,7 @@ gulp.task('styles', function(){
     .pipe(less())
     .pipe(concat('styles.css'))
     .pipe(uglifycss({"max-line-len":100}))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('../css'))
     .pipe(gulp.dest('./dist/css'));
 });
 
@@ -27,9 +27,10 @@ gulp.task('scripts', function(){
     .pipe(concat('app.js'))
     .pipe(babel({presets:['es2015']}))
     .pipe(uglify())
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('../js'))
     .pipe(gulp.dest('./dist/js'));
 });
 
 gulp.watch('./styles/**/*.less', ['styles']);
-gulp.watch('.js/**/*.js', ['scripts']);
+gulp.watch('./js/**/*.js', ['scripts']);
+
